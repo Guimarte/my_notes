@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:my_notes/features/home/bloc/home_bloc.dart';
-import 'package:my_notes/features/home/widgets/dialog_add_note.dart';
+import 'package:my_notes/features/home/presentation/bloc/home_bloc.dart';
+import 'package:my_notes/features/home/presentation/widgets/dialog_add_note.dart';
 
 mixin DialogAddNoteMixin<T extends StatefulWidget>
     on State<DialogAddNoteWidget> {

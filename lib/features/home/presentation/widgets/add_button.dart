@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_notes/features/home/widgets/dialog_add_note.dart';
+import 'package:my_notes/features/home/presentation/widgets/dialog_add_note.dart';
 
 class AddButtonWidget extends StatelessWidget {
   const AddButtonWidget({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:my_notes/features/home/bloc/home_bloc_event/home_bloc_event.dart';
-import 'package:my_notes/features/home/widgets/mixin/dialog_add_note_mixin.dart';
+import 'package:my_notes/features/home/presentation/bloc/home_bloc_event/home_bloc_event.dart';
+import 'package:my_notes/features/home/presentation/widgets/mixin/dialog_add_note_mixin.dart';
 
 class DialogAddNoteWidget extends StatefulWidget {
   const DialogAddNoteWidget({super.key});

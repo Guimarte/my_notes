@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:my_notes/features/home/bloc/home_bloc_event/home_bloc_event.dart';
-import 'package:my_notes/features/home/bloc/home_bloc_state/home_bloc_state.dart';
 import 'package:my_notes/features/home/model/note_model.dart';
+import 'package:my_notes/features/home/presentation/bloc/home_bloc_event/home_bloc_event.dart';
+import 'package:my_notes/features/home/presentation/bloc/home_bloc_state/home_bloc_state.dart';
 import 'package:my_notes/features/home/usecase/home_usecase.dart';
 import 'package:uuid/uuid.dart';
 

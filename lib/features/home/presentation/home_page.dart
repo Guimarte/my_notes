@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_notes/features/configuration/bloc/configuration_bloc_event/configuration_bloc_event.dart';
-import 'package:my_notes/features/home/bloc/home_bloc.dart';
-import 'package:my_notes/features/home/bloc/home_bloc_event/home_bloc_event.dart';
-import 'package:my_notes/features/home/bloc/home_bloc_state/home_bloc_state.dart';
 import 'package:my_notes/features/home/mixin/home_page_mixin.dart';
-import 'package:my_notes/features/home/widgets/add_button.dart';
-import 'package:my_notes/features/home/widgets/card_note.dart';
-import 'package:my_notes/features/home/widgets/dialog_read_note.dart';
-import 'package:my_notes/features/home/widgets/drawer_options.dart';
-import 'package:my_notes/features/home/widgets/shimmer_loading.dart';
+import 'package:my_notes/features/home/presentation/bloc/home_bloc.dart';
+import 'package:my_notes/features/home/presentation/bloc/home_bloc_event/home_bloc_event.dart';
+import 'package:my_notes/features/home/presentation/bloc/home_bloc_state/home_bloc_state.dart';
+import 'package:my_notes/features/home/presentation/widgets/add_button.dart';
+import 'package:my_notes/features/home/presentation/widgets/card_note.dart';
+import 'package:my_notes/features/home/presentation/widgets/dialog_read_note.dart';
+import 'package:my_notes/features/home/presentation/widgets/drawer_options.dart';
+import 'package:my_notes/features/home/presentation/widgets/shimmer_loading.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
