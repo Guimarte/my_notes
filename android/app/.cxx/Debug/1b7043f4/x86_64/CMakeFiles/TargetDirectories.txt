@@ -1,0 +1,2 @@
+C:/projetos/my_notes/android/app/.cxx/Debug/1b7043f4/x86_64/CMakeFiles/edit_cache.dir
+C:/projetos/my_notes/android/app/.cxx/Debug/1b7043f4/x86_64/CMakeFiles/rebuild_cache.dir
